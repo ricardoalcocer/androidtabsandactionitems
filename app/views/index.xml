@@ -1,0 +1,10 @@
+<Alloy>
+	<TabGroup onOpen="doopen">
+		<Tab title="Tab 1">
+			<Require src="win1" id="win1"/>
+		</Tab>
+		<Tab title="Tab 2">
+			<Require src="win2" id="win2"/>
+		</Tab>
+	</TabGroup>
+</Alloy>
