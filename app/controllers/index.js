@@ -1,5 +1,5 @@
-Alloy.CFG.tabGroup=$.index;
-Alloy.CFG.currentTab=0;
+Alloy.Globals.tabGroup=$.index;
+Alloy.Globals.currentTab=0;
 
 function doopen(evt){
 	var activity = evt.source.getActivity();
@@ -9,7 +9,7 @@ function doopen(evt){
 		menu = e.menu;
 		menu.clear();
 		
-		switch(Alloy.CFG.currentTab){
+		switch(Alloy.Globals.currentTab){
 			case 0:
 				item = e.menu.add({
 					title : "Invite",
@@ -43,10 +43,10 @@ function doopen(evt){
 		}
 	}
 
-	Alloy.CFG.tabGroup.addEventListener("focus", function(evt) {
+	Alloy.Globals.tabGroup.addEventListener("focus", function(evt) {
 		if (typeof evt.index !== "undefined"){
 			activity.invalidateOptionsMenu();
-			Alloy.CFG.currentTab=evt.index;	
+			Alloy.Globals.currentTab=evt.index;	
 		} 
 	});
 }
