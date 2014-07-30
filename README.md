@@ -2,4 +2,4 @@
 
 An example of how change Action Items depending on the currently active tab.
 
-<a href="http://drops.ricardoalcocer.com/drops/actions_tabs-wjyTAEZIqn.gif"/>
+<img src="http://drops.ricardoalcocer.com/drops/actions_tabs-wjyTAEZIqn.gif"/>
