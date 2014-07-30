@@ -1,18 +1,5 @@
-Welcome to your Appcelerator Titanium Mobile Project
+# Android Tabs and ActionBar Menu Items
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+An example of how change Action Items depending on the currently active tab.
 
-
-
-----------------------------------
-Stuff our legal folk make us say:
-
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
-
+<a href="http://drops.ricardoalcocer.com/drops/actions_tabs-wjyTAEZIqn.gif"/>
