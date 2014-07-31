@@ -37,7 +37,6 @@ function doopen(evt){
 				item2.addEventListener("click", function(e) {					
 					$.win2.label.text='You clicked the send button';
 				});
-
 				
 				break;
 		}
